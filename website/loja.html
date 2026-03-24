@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja — Caixaça</title>
+  <meta name="description" content="Compre cachaças artesanais avulsas, acessórios e kits especiais na loja Caixaça.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="css/theme.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-lg">
+      <a class="navbar-brand" href="index.html">Caix<span>aça</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="planos.html">Planos</a></li>
+          <li class="nav-item"><a class="nav-link" href="experiencia.html">Experiência</a></li>
+          <li class="nav-item"><a class="nav-link" href="loja.html">Loja</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Conteúdo</a></li>
+          <li class="nav-item"><a class="nav-link" href="conta.html">Minha Conta</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-primary" href="planos.html">Assinar Agora</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="container-lg">
+      <span class="hero-badge mb-3 d-inline-block"><i class="fa-solid fa-bag-shopping me-2"></i>Loja</span>
+      <h1 class="font-display">Nossa Loja</h1>
+      <p>Cachaças avulsas, acessórios e kits especiais para complementar sua experiência</p>
+    </div>
+  </div>
+
+  <!-- FILTROS + GRID -->
+  <section>
+    <div class="container-lg">
+      <!-- Filtros -->
+      <div class="d-flex flex-wrap gap-2 mb-4 fade-up">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="cachaca">Cachaças</button>
+        <button class="filter-btn" data-filter="kit">Kits</button>
+        <button class="filter-btn" data-filter="acessorio">Acessórios</button>
+        <button class="filter-btn" data-filter="petisco">Petiscos</button>
+      </div>
+
+      <!-- Grid de Produtos -->
+      <div class="row g-4">
+        <!-- Produto 1 -->
+        <div class="col-12 col-md-6 col-lg-4 product-item" data-category="cachaca">
+          <div class="card card-product h-100 fade-up">
+            <div class="img-placeholder card-img-top" style="height:220px;">
+              <i class="fa-solid fa-wine-bottle"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge mb-2">Cachaça</span>
+              <div class="product-name">Cachaça Ouro de Minas</div>
+              <p class="text-muted mb-2" style="font-size:0.85rem;">Envelhecida 3 anos em barril de carvalho. Notas de baunilha e caramelo.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="product-price">R$ 78,00</span>
+                <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-plus me-1"></i>Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="col-12 col-md-6 col-lg-4 product-item" data-category="cachaca">
+          <div class="card card-product h-100 fade-up">
+            <div class="img-placeholder card-img-top" style="height:220px;">
+              <i class="fa-solid fa-wine-bottle"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge mb-2">Cachaça</span>
+              <div class="product-name">Cachaça Prata do Vale</div>
+              <p class="text-muted mb-2" style="font-size:0.85rem;">Destilada em alambique de cobre. Fresca e frutada com final longo.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="product-price">R$ 62,00</span>
+                <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-plus me-1"></i>Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="col-12 col-md-6 col-lg-4 product-item" data-category="cachaca">
+          <div class="card card-product h-100 fade-up">
+            <div class="img-placeholder card-img-top" style="height:220px;">
+              <i class="fa-solid fa-wine-bottle"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge mb-2">Edição Limitada</span>
+              <div class="product-name">Cachaça Reserva Especial</div>
+              <p class="text-muted mb-2" style="font-size:0.85rem;">Envelhecida 8 anos em amburana. Notas de canela e mel silvestre.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="product-price">R$ 145,00</span>
+                <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-plus me-1"></i>Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produto 4 -->
+        <div class="col-12 col-md-6 col-lg-4 product-item" data-category="kit">
+          <div class="card card-product h-100 fade-up">
+            <div class="img-placeholder card-img-top" style="height:220px;">
+              <i class="fa-solid fa-box-open"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge mb-2">Kit</span>
+              <div class="product-name">Kit Degustação Iniciante</div>
+              <p class="text-muted mb-2" style="font-size:0.85rem;">3 miniaturas selecionadas + guia de degustação impresso. Perfeito para começar.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="product-price">R$ 89,00</span>
+                <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-plus me-1"></i>Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produto 5 -->
+        <div class="col-12 col-md-6 col-lg-4 product-item" data-category="acessorio">
+          <div class="card card-product h-100 fade-up">
+            <div class="img-placeholder card-img-top" style="height:220px;">
+              <i class="fa-solid fa-martini-glass-citrus"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge mb-2">Acessório</span>
+              <div class="product-name">Jogo de Copos Artesanais</div>
+              <p class="text-muted mb-2" style="font-size:0.85rem;">4 copos de cristal soprado, ideais para degustação de cachaça.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="product-price">R$ 120,00</span>
+                <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-plus me-1"></i>Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produto 6 -->
+        <div class="col-12 col-md-6 col-lg-4 product-item" data-category="petisco">
+          <div class="card card-product h-100 fade-up">
+            <div class="img-placeholder card-img-top" style="height:220px;">
+              <i class="fa-solid fa-cheese"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge mb-2">Petisco</span>
+              <div class="product-name">Kit Harmonização Queijos</div>
+              <p class="text-muted mb-2" style="font-size:0.85rem;">Seleção de queijos artesanais mineiros para harmonizar com sua cachaça.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="product-price">R$ 56,00</span>
+                <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-plus me-1"></i>Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produto 7 -->
+        <div class="col-12 col-md-6 col-lg-4 product-item" data-category="kit">
+          <div class="card card-product h-100 fade-up">
+            <div class="img-placeholder card-img-top" style="height:220px;">
+              <i class="fa-solid fa-gift"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge mb-2">Kit Presente</span>
+              <div class="product-name">Box Presente Premium</div>
+              <p class="text-muted mb-2" style="font-size:0.85rem;">2 garrafas + copos + guia em embalagem presenteável de madeira.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="product-price">R$ 249,00</span>
+                <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-plus me-1"></i>Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produto 8 -->
+        <div class="col-12 col-md-6 col-lg-4 product-item" data-category="acessorio">
+          <div class="card card-product h-100 fade-up">
+            <div class="img-placeholder card-img-top" style="height:220px;">
+              <i class="fa-solid fa-book"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge mb-2">Acessório</span>
+              <div class="product-name">Caderno de Degustação</div>
+              <p class="text-muted mb-2" style="font-size:0.85rem;">Caderno premium com fichas pré-formatadas para registrar suas degustações.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="product-price">R$ 45,00</span>
+                <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-plus me-1"></i>Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produto 9 -->
+        <div class="col-12 col-md-6 col-lg-4 product-item" data-category="petisco">
+          <div class="card card-product h-100 fade-up">
+            <div class="img-placeholder card-img-top" style="height:220px;">
+              <i class="fa-solid fa-pepper-hot"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge mb-2">Petisco</span>
+              <div class="product-name">Castanhas Defumadas</div>
+              <p class="text-muted mb-2" style="font-size:0.85rem;">Mix de castanhas defumadas artesanalmente. Harmonização perfeita.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="product-price">R$ 38,00</span>
+                <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-plus me-1"></i>Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-hero text-center">
+    <div class="container-lg fade-up">
+      <h2 class="font-display text-white mb-3">Quer receber novidades todo mês?</h2>
+      <p class="lead mb-4" style="color:rgba(255,255,255,0.7);max-width:480px;margin:0 auto;">Assine a Caixaça e receba cachaças artesanais selecionadas na sua porta.</p>
+      <a href="planos.html" class="btn btn-primary btn-lg"><i class="fa-solid fa-box-open me-2"></i>Ver Planos</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container-lg">
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <a class="footer-brand d-block mb-3" href="index.html">Caix<span>aça</span></a>
+          <p style="font-size:0.9rem;">Cachaças artesanais selecionadas por especialistas, entregues na sua porta todo mês.</p>
+          <div class="footer-social mt-3">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5>Navegação</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="index.html">Home</a></li>
+            <li class="mb-2"><a href="planos.html">Planos</a></li>
+            <li class="mb-2"><a href="experiencia.html">Experiência</a></li>
+            <li class="mb-2"><a href="loja.html">Loja</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5>Conteúdo</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="blog.html">Blog</a></li>
+            <li class="mb-2"><a href="faq.html">FAQ</a></li>
+            <li class="mb-2"><a href="sobre.html">Quem Somos</a></li>
+            <li class="mb-2"><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <h5>Newsletter</h5>
+          <p style="font-size:0.9rem;">Receba novidades e ofertas exclusivas.</p>
+          <form class="d-flex gap-2" onsubmit="event.preventDefault();">
+            <input type="email" class="form-control" placeholder="Seu e-mail">
+            <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <small>&copy; 2026 Caixaça. Todos os direitos reservados. Beba com moderação.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
